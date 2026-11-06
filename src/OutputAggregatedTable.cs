@@ -30,8 +30,8 @@ namespace Landis.Extension.Output.PnET
         [DataFieldAttribute(Unit = "mm_m-1", Desc = "Average Water", Format = "0.00")]
         public double AverageWater { set; get; }
 
-        [DataFieldAttribute(Unit = "W_m-2_or_mmol_m-2)", Desc = "SubcanopyPAR", Format = "0.00")]
-        public double SubcanopyPAR { set; get; }
+        [DataFieldAttribute(Unit = "W_m-2_or_mmol_m-2)", Desc = "SubCanopyPAR", Format = "0.00")]
+        public double SubCanopyPAR { set; get; }
 
         [DataFieldAttribute(Unit = "kgDW_m-2", Desc = "Litter", Format = "0.00")]
         public double Litter { set; get; }
